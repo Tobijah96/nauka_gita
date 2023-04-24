@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2020-41-16.png" added="2023-04-24T18:41:16.332174Z" modified="2023-04-24T18:41:16.332192Z" visited="2023-04-24T18:41:16.332178Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T18:41:16.332184Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2020-42-02.png" added="2023-04-24T18:42:02.574472Z" modified="2023-04-24T18:42:02.574498Z" visited="2023-04-24T18:42:02.574479Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T18:42:02.574488Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2020-48-29.png" added="2023-04-24T18:48:29.885215Z" modified="2023-04-24T18:48:29.885241Z" visited="2023-04-24T18:48:29.885221Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T18:48:29.885231Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/main.py" added="2023-04-24T19:46:00.202853Z" modified="2023-04-24T20:50:28.969642Z" visited="2023-04-24T19:46:00.202856Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T20:50:28.969636Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/hello_world/formater.py" added="2023-04-24T19:47:27.766190Z" modified="2023-04-24T19:57:01.089964Z" visited="2023-04-24T19:47:27.766193Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T19:57:01.089957Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/hello_world/__init__.py" added="2023-04-24T19:47:35.701957Z" modified="2023-04-24T19:47:35.701972Z" visited="2023-04-24T19:47:35.701960Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T19:47:35.701966Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/hello_world/views.py" added="2023-04-24T19:47:39.487351Z" modified="2023-04-24T19:47:47.639601Z" visited="2023-04-24T19:47:39.487355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T19:47:47.639591Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/test/test_formater.py" added="2023-04-24T19:51:00.077732Z" modified="2023-04-24T20:03:00.880688Z" visited="2023-04-24T19:51:00.077735Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T20:03:00.880683Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/test/test_views.py" added="2023-04-24T19:51:09.410899Z" modified="2023-04-24T19:51:09.410915Z" visited="2023-04-24T19:51:09.410902Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T19:51:09.410908Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2021-55-05.png" added="2023-04-24T19:55:05.297194Z" modified="2023-04-24T20:25:51.780222Z" visited="2023-04-24T19:55:05.297197Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T19:55:05.297202Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-04-24T20:25:51.780216Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2021-57-28.png" added="2023-04-24T19:57:28.785858Z" modified="2023-04-24T19:57:30.129601Z" visited="2023-04-24T19:57:28.785862Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T19:57:28.785868Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-04-24T19:57:30.129595Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Tobijah96/2023_L_I_NWh_INF_K2/Makefile" added="2023-04-24T20:07:33.238422Z" modified="2023-04-24T20:16:59.539555Z" visited="2023-04-24T20:07:33.238425Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-04-24T20:16:59.539545Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-18-33.png" added="2023-04-24T20:18:33.767751Z" modified="2023-04-24T20:18:33.767772Z" visited="2023-04-24T20:18:33.767757Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:18:33.767765Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-19-55.png" added="2023-04-24T20:19:55.824412Z" modified="2023-04-24T20:19:59.331407Z" visited="2023-04-24T20:19:55.824416Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:19:55.824424Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-04-24T20:19:59.331401Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-22-21.png" added="2023-04-24T20:22:21.641131Z" modified="2023-04-24T20:22:21.641152Z" visited="2023-04-24T20:22:21.641135Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:22:21.641141Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-23-47.png" added="2023-04-24T20:23:47.784997Z" modified="2023-04-24T20:23:49.729946Z" visited="2023-04-24T20:23:47.785004Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:23:47.785009Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-04-24T20:23:49.729940Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-24-25.png" added="2023-04-24T20:24:25.484013Z" modified="2023-04-24T20:24:25.484027Z" visited="2023-04-24T20:24:25.484016Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:24:25.484020Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-25-21.png" added="2023-04-24T20:25:21.428216Z" modified="2023-04-24T20:25:21.428243Z" visited="2023-04-24T20:25:21.428223Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:25:21.428232Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-31-10.png" added="2023-04-24T20:31:10.813559Z" modified="2023-04-24T20:31:10.813582Z" visited="2023-04-24T20:31:10.813563Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:31:10.813570Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-32-12.png" added="2023-04-24T20:32:12.525580Z" modified="2023-04-24T20:32:12.525594Z" visited="2023-04-24T20:32:12.525584Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:32:12.525588Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-32-57.png" added="2023-04-24T20:32:57.404403Z" modified="2023-04-24T20:32:57.404417Z" visited="2023-04-24T20:32:57.404406Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:32:57.404410Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-44-27.png" added="2023-04-24T20:44:27.360987Z" modified="2023-04-24T20:44:27.360999Z" visited="2023-04-24T20:44:27.360990Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:44:27.360994Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tobiasz-czerwik/Obrazy/Zrzuty%20ekranu/Zrzut%20ekranu%20z%202023-04-24%2022-45-17.png" added="2023-04-24T20:45:17.310944Z" modified="2023-04-24T20:45:17.310960Z" visited="2023-04-24T20:45:17.310948Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-04-24T20:45:17.310954Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

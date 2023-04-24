@@ -1,0 +1,119 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "Micro-Star International Co., Ltd.",
+    "Product": "Alpha 15 A3DD",
+    "Family": "Al"
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "E16U6AMS.111"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "1002",
+      "Model": "15d8"
+    }
+  ],
+  "RAM": 14.2,
+  "Partitions": [
+    21.4,
+    0.3
+  ],
+  "Screens": [
+    {
+      "Size": "340mmx190mm",
+      "Resolution": "1920x1080",
+      "Frequency": "120.01"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "pl_PL",
+  "Timezone": "Europe/Warsaw",
+  "Install": {
+    "Media": "Ubuntu 22.04.2 LTS \"Jammy Jellyfish\" - Release amd64 (20230223)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": true,
+    "Language": "pl",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "13": "console_setup",
+      "15": "wireless",
+      "33": "prepare",
+      "53": "partman",
+      "62": "partman",
+      "73": "partman",
+      "77": "partman",
+      "82": "partman",
+      "105": "partman",
+      "110": "partman",
+      "113": "partman",
+      "114": "partman",
+      "127": "partman",
+      "132": "partman",
+      "140": "partman",
+      "145": "partman",
+      "151": "partman",
+      "155": "partman",
+      "169": "partman",
+      "173": "partman",
+      "180": "partman",
+      "185": "partman",
+      "216": "partman",
+      "221": "partman",
+      "228": "partman",
+      "233": "partman",
+      "237": "partman",
+      "240": "partman",
+      "242": "partman",
+      "248": "partman",
+      "251": "partman",
+      "258": "partman",
+      "263": "partman",
+      "270": "partman",
+      "281": "partman",
+      "283": "partman",
+      "299": "partman",
+      "300": "partman",
+      "304": "partman",
+      "305": "partman",
+      "320": "partman",
+      "325": "partman",
+      "327": "partman",
+      "331": "partman",
+      "340": "partman",
+      "342": "partman",
+      "349": "partman",
+      "364": "partman",
+      "368": "partman",
+      "377": "partman",
+      "382": "partman",
+      "459": "partman",
+      "464": "partman",
+      "472": "partman",
+      "476": "partman",
+      "511": "partman",
+      "516": "partman",
+      "540": "partman",
+      "545": "partman",
+      "578": "partman",
+      "590": "start_install",
+      "593": "timezone",
+      "596": "usersetup",
+      "614": "user_done",
+      "1075": "done"
+    }
+  }
+}

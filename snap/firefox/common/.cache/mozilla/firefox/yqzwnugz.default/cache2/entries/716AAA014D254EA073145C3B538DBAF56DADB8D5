@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+    xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+
+    <Id>53e0d905-101b-4a8f-8edb-5a1ca2527920</Id>
+    
+    <Version>1.0.0.0</Version>
+    
+    <ProviderName>Microsoft Corporation</ProviderName>
+    
+    <DefaultLocale>en-US</DefaultLocale>
+
+    <DisplayName DefaultValue="Live Captions">
+        <!-- localized strings go here. -->
+    </DisplayName>
+
+    <Description DefaultValue="[Description here]">
+        <!-- localized strings go here. -->
+    </Description>
+
+    <IconUrl DefaultValue="https://www.onenote.com/officeaddins/livecaptions/icon/32?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+    <HighResolutionIconUrl DefaultValue="https://www.onenote.com/officeaddins/livecaptions/icon/80?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+
+    <SupportUrl DefaultValue="https://aka.ms/edusupport" />
+
+    <AppDomains>
+        <AppDomain>onenote.com</AppDomain>
+    </AppDomains>
+
+    <Hosts>
+        <Host Name="Notebook" />
+    </Hosts>
+
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://www.onenote.com/officeaddins/livecaptions/" />
+    </DefaultSettings>
+
+    <Permissions>ReadWriteDocument</Permissions>
+
+    <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+        xsi:type="VersionOverridesV1_0">
+
+        <!-- SSO CONFIGURATION -->
+        <WebApplicationInfo>
+            <Id>53e0d905-101b-4a8f-8edb-5a1ca2527920</Id>
+            <Resource>https://officeapps.live.com</Resource>
+            <Scopes>
+                <Scope>profile</Scope>
+                <Scope>openid</Scope>
+            </Scopes>
+            <Authorizations>
+                <Authorization>
+                    <Resource>https://officeapps.live.com</Resource>
+                    <Scopes>
+                        <Scope>profile</Scope>
+                        <Scope>openid</Scope>
+                    </Scopes>
+                </Authorization>
+            </Authorizations>
+        </WebApplicationInfo>
+
+        <Hosts>
+            <Host xsi:type="Notebook">
+                <DesktopFormFactor>
+                    <GetStarted>
+                        <Title resid="GetStarted.Title" />
+                        <Description resid="GetStarted.Description" />
+                        <LearnMoreUrl resid="GetStarted.LearnMoreUrl" />
+                    </GetStarted>
+
+                    <FunctionFile resid="Commands.Url" />
+
+                    <ExtensionPoint xsi:type="PrimaryCommandSurface">
+                        <OfficeTab id="TabView">
+                            <Group id="LiveCaptions.TabGroup">
+                                <Label resid="CommandsGroup.Label" />
+                                <Icon>
+                                    <bt:Image size="16" resid="Icon.16x16" />
+                                    <bt:Image size="32" resid="Icon.32x32" />
+                                    <bt:Image size="80" resid="Icon.80x80" />
+                                </Icon>
+                                <Control xsi:type="Button" id="TaskpaneButton">
+                                    <Label resid="TaskpaneButton.Label" />
+                                    <Supertip>
+                                        <Title resid="TaskpaneButton.Label" />
+                                        <Description resid="TaskpaneButton.Tooltip" />
+                                    </Supertip>
+                                    <Icon>
+                                        <bt:Image size="16" resid="Icon.16x16" />
+                                        <bt:Image size="32" resid="Icon.32x32" />
+                                        <bt:Image size="80" resid="Icon.80x80" />
+                                    </Icon>
+                                    <Action xsi:type="ShowTaskpane">
+                                        <TaskpaneId>LiveCaptions</TaskpaneId>
+                                        <SourceLocation resid="Taskpane.Url" />
+                                    </Action>
+                                </Control>
+                            </Group>
+                        </OfficeTab>
+                    </ExtensionPoint>
+                </DesktopFormFactor>
+            </Host>
+        </Hosts>
+
+        <Resources>
+            <bt:Images>
+                <bt:Image id="Icon.16x16" DefaultValue="https://www.onenote.com/officeaddins/livecaptions/icon/16?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+                <bt:Image id="Icon.32x32" DefaultValue="https://www.onenote.com/officeaddins/livecaptions/icon/32?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+                <bt:Image id="Icon.80x80" DefaultValue="https://www.onenote.com/officeaddins/livecaptions/icon/80?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+            </bt:Images>
+            <bt:Urls>
+                <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
+                <bt:Url id="Commands.Url" DefaultValue="https://www.onenote.com/officeaddins/livecaptions/functions?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+                <bt:Url id="Taskpane.Url" DefaultValue="https://www.onenote.com/officeaddins/livecaptions/?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07" />
+            </bt:Urls>
+            <bt:ShortStrings>
+                <bt:String id="GetStarted.Title" DefaultValue="Get started with Live Captions!" />
+                <bt:String id="CommandsGroup.Label" DefaultValue="Live Captions" />
+                <bt:String id="TaskpaneButton.Label" DefaultValue="Live Captions">
+					<bt:Override Locale="ar-SA" Value="التسميات التوضيحية المباشرة"/>
+					<bt:Override Locale="bg-BG" Value="Надписи на живо"/>
+					<bt:Override Locale="ca-ES" Value="Subtítols en directe"/>
+					<bt:Override Locale="cs-CZ" Value="Živé titulky"/>
+					<bt:Override Locale="cy-GB" Value="Capsiynau Byw"/>
+					<bt:Override Locale="da-DK" Value="Liveundertekster"/>
+					<bt:Override Locale="de-DE" Value="Liveuntertitel"/>
+					<bt:Override Locale="el-GR" Value="Ζωντανές λεζάντες"/>
+					<bt:Override Locale="en-GB" Value="Live Captions"/>
+					<bt:Override Locale="es-ES" Value="Subtítulos en directo"/>
+					<bt:Override Locale="et-EE" Value="Vaegkuuljate reaalajasubtiitrid"/>
+					<bt:Override Locale="eu-ES" Value="Zuzeneko epigrafeak"/>
+					<bt:Override Locale="fi-FI" Value="Live-tekstitys"/>
+					<bt:Override Locale="fr-CA" Value="Sous-titres en direct"/>
+					<bt:Override Locale="gl-ES" Value="Subtítulos en directo"/>
+					<bt:Override Locale="he-IL" Value="כתוביות חיות"/>
+					<bt:Override Locale="hi-IN" Value="लाइव कैप्शन"/>
+					<bt:Override Locale="hr-HR" Value="Opisi uživo"/>
+					<bt:Override Locale="hu-HU" Value="Élő feliratok"/>
+					<bt:Override Locale="id-ID" Value="Keterangan Langsung"/>
+					<bt:Override Locale="is-IS" Value="Skjátextar í beinni"/>
+					<bt:Override Locale="it-IT" Value="Sottotitoli in tempo reale"/>
+					<bt:Override Locale="ja-JP" Value="ライブ キャプション"/>
+					<bt:Override Locale="kk-KZ" Value="Автоматты субтитрлар"/>
+					<bt:Override Locale="ko-KR" Value="라이브 캡션"/>
+					<bt:Override Locale="lt-LT" Value="Automatiniai aprašai"/>
+					<bt:Override Locale="lv-LV" Value="Tiešraides titri"/>
+					<bt:Override Locale="ms-MY" Value="Kapsyen Langsung"/>
+					<bt:Override Locale="nb-NO" Value="Direkte tekster"/>
+					<bt:Override Locale="nl-NL" Value="Liveondertitels"/>
+					<bt:Override Locale="nn-NO" Value="Direkte teksting"/>
+					<bt:Override Locale="pl-PL" Value="Napisy na żywo"/>
+					<bt:Override Locale="pt-BR" Value="Legendas ao Vivo"/>
+					<bt:Override Locale="pt-PT" Value="Legendas em Tempo Real"/>
+					<bt:Override Locale="ro-RO" Value="Subtitrări în direct"/>
+					<bt:Override Locale="ru-RU" Value="Автоматические субтитры"/>
+					<bt:Override Locale="sk-SK" Value="Titulky naživo"/>
+					<bt:Override Locale="sl-SI" Value="Napisi v živo"/>
+					<bt:Override Locale="sr-Cyrl-RS" Value="Натписи уживо"/>
+					<bt:Override Locale="sr-Latn-RS" Value="Natpisi uživo"/>
+					<bt:Override Locale="sv-SE" Value="Livetextning"/>
+					<bt:Override Locale="th-TH" Value="คำอธิบายภาพสด"/>
+					<bt:Override Locale="tr-TR" Value="Canlı Alt Yazı"/>
+					<bt:Override Locale="uk-UA" Value="Динамічні субтитри"/>
+					<bt:Override Locale="vi-VN" Value="Chú thích trực tiếp"/>
+					<bt:Override Locale="zh-Hans" Value="实时字幕"/>
+					<bt:Override Locale="zh-Hant" Value="即時字幕"/>
+				</bt:String>
+            </bt:ShortStrings>
+            <bt:LongStrings>
+                <bt:String id="GetStarted.Description"
+                    DefaultValue="Your Live Captions add-in loaded succesfully. Go to the HOME tab and click the 'Live Captions' button to get started." />
+                <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show Live Captions" />
+            </bt:LongStrings>
+        </Resources>
+    </VersionOverrides>
+</OfficeApp>àdK�5           dF�E��`dF�   �    O^partitionKey=%28https%2Csharepoint.com%29,a,:https://www.onenote.com/officeaddins/livecaptions/manifest?tenant=53bc24c5-73ad-421a-9408-3ea555be4a07 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+cache-control: private
+content-type: application/xml; charset=utf-8
+x-routingofficecluster: neu-000.reverseproxy.onenote.com
+x-routingofficefe: ReverseProxyFrontEnd_IN_22
+x-routingofficeversion: 16.0.16414.40458
+x-routingsessionid: ae0e45e3-d33e-444f-ae77-fec25c11fd5f
+x-routingcorrelationid: a211fdf6-36ec-4a34-8e57-d1afe18c9383
+p3p: CP="CAO DSP COR ADMa DEV CONi TELi CUR PSA PSD TAI IVDi OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR", CP="P3P is not supported anymore; see: https://msdn.microsoft.com/en-us/library/mt146424%28v=vs.85%29.aspx"
+x-correlationid: a211fdf6-36ec-4a34-8e57-d1afe18c9383
+x-usersessionid: ae0e45e3-d33e-444f-ae77-fec25c11fd5f
+x-officefe: AgavesFrontEnd_IN_17
+x-officeversion: 16.0.16417.40457
+x-officecluster: neu-000.appsforoffice.onenote.com
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+access-control-allow-origin: *
+x-content-type-options: nosniff
+date: Mon, 24 Apr 2023 20:29:05 GMT
+content-length: 9577
+X-Firefox-Spdy: h2
+ original-response-headers cache-control: private
+content-type: application/xml; charset=utf-8
+x-routingofficecluster: neu-000.reverseproxy.onenote.com
+x-routingofficefe: ReverseProxyFrontEnd_IN_22
+x-routingofficeversion: 16.0.16414.40458
+x-routingsessionid: ae0e45e3-d33e-444f-ae77-fec25c11fd5f
+x-routingcorrelationid: a211fdf6-36ec-4a34-8e57-d1afe18c9383
+p3p: CP="CAO DSP COR ADMa DEV CONi TELi CUR PSA PSD TAI IVDi OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR"
+p3p: CP="P3P is not supported anymore; see: https://msdn.microsoft.com/en-us/library/mt146424%28v=vs.85%29.aspx"
+x-correlationid: a211fdf6-36ec-4a34-8e57-d1afe18c9383
+x-usersessionid: ae0e45e3-d33e-444f-ae77-fec25c11fd5f
+x-officefe: AgavesFrontEnd_IN_17
+x-officeversion: 16.0.16417.40457
+x-officecluster: neu-000.appsforoffice.onenote.com
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+access-control-allow-origin: *
+x-content-type-options: nosniff
+date: Mon, 24 Apr 2023 20:29:05 GMT
+content-length: 9577
+X-Firefox-Spdy: h2
+ ctid 1   %i
